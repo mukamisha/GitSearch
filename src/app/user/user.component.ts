@@ -21,9 +21,9 @@ export class UserComponent implements OnInit {
     //   bio:string;
     //   public_gists:number;
     //   followers:number;
-    // //   following:number
-    this.keke.UserService('userName')
-    this.gitis=this.keke.giti;
+    //   following:number
+    this.keke.User
+    this.gitis=this.keke.giti
 
     
     }

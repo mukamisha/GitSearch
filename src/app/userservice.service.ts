@@ -12,7 +12,7 @@ this.giti= new RepoClass("",0,"",0,0,0);
 // this.repolist =[];
 }
 
-UserService(userName){
+User(userName){
   interface ApiResponse{
     login:string;
     public_repos:number;
@@ -40,9 +40,3 @@ UserService(userName){
   return promise
 }
 }
-
-
-
-
-
-
