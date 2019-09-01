@@ -14,11 +14,13 @@ export class UserComponent implements OnInit {
     interface ApiResponse{
       login:string;
       public_repos:number;
+      bio:string;
+      public_gists:number
     }
   
       this.http.get<ApiResponse>("https://api.github.com/users/daneden?access_token=f36e6bc54204b7ed6fd3469a90f88b635e7bb767 ").subscribe(data=>{
         // Succesful API request
-        this.giti = new RepoClass(data. login, data.public_repos)
+        this.giti = new RepoClass(data. login, data.public_repos,data.bio , data.public_gists)
       })
   }
 }
