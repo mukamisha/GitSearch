@@ -18,28 +18,22 @@
 
 
 
-login:string;
-public_repos:number;
-bio:string;
-public_gists:number;
-followers:number;
-following:number
+
 <div class="form-group">
-    <input type="text" class="input" [(ngModel)]=username>
-    <button class="butt" (click)="SearchUser()" style="text-align:center">SeachUser</button>
-    <div *ngIf="result" id="response">
+    <input type="text" class="input" [(ngModel)]=userName>
+    <button class="butt" (click)="SearchUser()" style="text-align:center">SearchUser</button>
+    <div *ngIf="response" id="response">
         <br>
         <br>
         <div>
             <p class="mb-0"><b>GithubUserName:</b>{{response.login}}</p>
             <p class="mb-0"><b>Repositories:</b>{{response.public_repos}}</p>
             <p class="mb-0"><b>Biography:</b>{{response.bio}}</p>
-            <p class="mb-0"><b>:public_gists</b>{{response.public_gists}}</p>
+            <p class="mb-0"><b>public_gists:</b>{{response.public_gists}}</p>
             <p class="mb-0"><b>followers:</b>{{response.followers}}</p>
             <p class="mb-0"><b>GithubUserName:</b>{{response.following}}</p>
         </div>
         <a href="{{user.html_url}}" target="_blank" class="list-group-item list-group-item-action active">View
             them in profile</a>
-
 
 </div>
