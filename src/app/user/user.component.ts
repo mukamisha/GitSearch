@@ -9,6 +9,7 @@ import { UserserviceService } from 'src/app/userservice.service';
 })
 export class UserComponent implements OnInit {
   gitis: RepoClass;
+  response:any;
   constructor(private keke: UserserviceService) {
 
    }
