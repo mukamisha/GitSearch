@@ -8,4 +8,14 @@ body{
 .one{
     width:100%;
     height:200px;
+    margin-left:350px;
+    margin-top:60px;
+}
+#container1{
+    margin-left:350px;
+    border:2px solid black;
+    background-color:grey;
+    color:black;
+    width:500px;
+    border-radius:15px 15px;
 }

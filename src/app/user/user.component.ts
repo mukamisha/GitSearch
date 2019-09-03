@@ -38,7 +38,7 @@ export class UserComponent implements OnInit {
 //   }
 
 SearchUser(){
-  this.http.get("https:api.github.com/users/" + this.userName+ "?access_token=a66ec8ee242cd80f94b04c0bdf1b8c7e018f954e").subscribe((response)=>{
+  this.http.get("https:api.github.com/users/" + this.userName+ "?access_token=ebbe764f04c6e21014602c9b8bd0eed3d278b6fe").subscribe((response)=>{
     this.response=response;
     console.log(this.response);
 })
