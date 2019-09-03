@@ -4,14 +4,16 @@ body{
     height:800px;
     background-image:url("http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg");
     color:white;
+    font-family:Serif;
 }
 .one{
-    width:100%;
+    width:550px;
     height:200px;
     margin-left:350px;
     margin-top:60px;
 }
 #container1{
+   
     margin-left:420px;
     /* border:2px solid black; */
     /* background-color:grey; */
@@ -19,3 +21,16 @@ body{
     width:500px;
     /* border-radius:15px 15px; */
 }
+.ten{
+    width:100%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    font-size:20px;
+    color: white;
+    text-align: center;
+ }
