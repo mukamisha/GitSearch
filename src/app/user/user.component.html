@@ -19,9 +19,9 @@
 
 
 
-<div class="form-group">
+<div class="form-group"id="container1">
     <input type="text" class="input" [(ngModel)]=userName>
-    <button class="butt" (click)="SearchUser()" style="text-align:center">SearchUser</button>
+    <button class="butt" (click)="SearchUser()" style="text-align:center;background-color:grey;width:120px;height:70px">SearchUser</button>
     <div *ngIf="response" id="response">
         <br>
         <br>
@@ -33,7 +33,8 @@
             <p class="mb-0"><b>followers:</b>{{response.followers}}</p>
             <p class="mb-0"><b>GithubUserName:</b>{{response.following}}</p>
         </div>
-        <a href="{{user.html_url}}" target="_blank" class="list-group-item list-group-item-action active">View
-            them in profile</a>
+        <a href="{{response.html_url}}" target="_blank" class="list-group-item list-group-item-action active"><button style="background-color: #e7e7e7; color: black;">View the User Profile</button>
+            </a>
 
+</div>
 </div>
