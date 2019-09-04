@@ -1,7 +1,7 @@
 
 export const environment = {
   production: false,
-  apiUrl:'ebbe764f04c6e21014602c9b8bd0eed3d278b6fe'
+  // apiUrl:'77e5bc05243623f4ac4b5c1e5eab31ebd0c16c04'
 };
 
 
