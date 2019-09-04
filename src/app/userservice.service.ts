@@ -22,7 +22,7 @@ User(userName){
     following:number
   }
   let promise = new Promise((resolve,reject)=>{
-    this.http.get<ApiResponse>('https://api.github.com/users/'+userName.githubUserName + "?access_token=" + environment.apiUrl).toPromise().then(response=>{
+    this.http.get<ApiResponse>('https://api.github.com/users/'+userName.githubUserName + "?access_token=29ebc30ede6e971e890798041cf22162896ee19e" + environment.apiUrl).toPromise().then(response=>{
       this.giti.githubUserName=response.login;
       this.giti.repositories =response.public_repos;
       this.giti.biography=response.bio;
