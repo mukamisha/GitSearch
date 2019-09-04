@@ -1,4 +1,7 @@
 export const environment = {
   production: true,
-  apiUrl:'77e5bc05243623f4ac4b5c1e5eab31ebd0c16c04'
+  apiUrl:'a783b536e3edcfb4592189b7e1ca657fc10f4238',
+  // key:"a783b536e3edcfb4592189b7e1ca657fc10f4238"
+  
+
 };
